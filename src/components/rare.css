@@ -1,0 +1,108 @@
+
+.rare{
+background: #fff;  
+position: relative;
+padding: 50px;
+gap: 30px;
+}
+
+.rare .title{
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+}
+
+
+
+.rareContent{
+
+    display: flex;
+    align-items: center;
+    margin-left: 130px;
+
+    padding: 40px;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+    /* width: 100vw;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px; */
+}
+
+ .rareContent .leftside{
+    padding: 20px;
+    width: 550px;
+    height: 550px;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+flex-direction: column;
+border: 1px solid #b4acac;
+}
+    /* gap: 30px;
+    padding: 10px;
+    height: 550px;
+    width: 680px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #b4acac;
+} */
+
+.rareContent .leftside h1
+
+{
+    font-size: 50px;
+    font-weight: 500;
+    color: #000000;
+/* font-family: Spectral;
+font-size: 47px;
+font-weight: 600; */
+
+}
+
+.rareContent .leftside p{
+    font-size: 20px;
+    font-weight: normal;
+    color: #000000;
+    line-height: 30px;
+    text-align: justify;
+
+    
+    /* font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    color: #000; */
+}
+
+.rareContent .leftside button{
+    /* Radius:5.07px;
+    Padding:12px, 35px, 12px, 35px;
+    height: 50px;
+    width: 140px;
+    background: #5e20a0;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    align-self: end; */
+    background: #6B03C1;
+    color: #FFF;
+    align-self: end;
+    border: none;
+    border-radius: 8px;
+    width: 120px;
+    height: 50px;
+    padding: 5px;
+}
+
+
+.rareContent .rightside img{
+    /* width: 650px;
+    height: 750px; */
+    width: 580px;
+    height: 580px;
+
+} 

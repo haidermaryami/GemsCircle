@@ -1,0 +1,102 @@
+.Footer{
+    background: #F5F5F5;
+    width:100%;
+    position: relative;
+
+    padding: 100px 50px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Footer .leftside .logo{
+width: 200px;
+height: 70px;
+
+
+}
+
+
+.Footer .leftside .para{
+    width: 380px;
+    font-size: 16px;
+    color: #000000;
+}
+.Footer .leftside .iconContainer{
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+.Footer .leftside .iconContainer img{
+width: 33px;
+height: 33px;
+}
+
+.Footer .leftside .iconContainer img:hover{
+    background-color: #6B03C1;
+}
+
+
+
+.rightside{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* width: 100%; */
+}
+.rightside .rightLinks ul{
+    width: 500px;
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+    display: flex;
+    /* justify-content: center; */
+    gap: 20px;
+    flex-wrap: wrap;
+
+
+}
+
+.rightside .rightLinks ul li{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    color: #000000;
+    width: 30%;
+
+}
+.rightside .subscribe{
+    /* width: 100%; */
+    background: #FFF;
+    width: 500px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.rightside .subscribe input{
+    /* width: 80%; */
+    height: 50px;
+    border: none;
+    outline: none;
+    padding:0px 10px;
+    border-radius: 5px;
+}
+
+.rightside .subscribe button{
+    background:#6B03C1;
+    color: #FFF;
+    width: 100px;
+    font-size: 18px;
+    /* width: 18%; */
+    font-weight: normal;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+}
+.rightside .subscribe button:hover{
+    background-color: #3d2153;
+    color: #F5F5F5;
+}
